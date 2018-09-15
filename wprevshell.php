@@ -34,7 +34,7 @@ if (function_exists('pcntl_fork')) {
  printit("ERROR: Can't fork");
  exit(1);
  }
- 
+
  if ($pid) {
  exit(0);  // Parent exits
  }
